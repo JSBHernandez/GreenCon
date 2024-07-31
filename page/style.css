@@ -222,12 +222,20 @@ footer {
     padding: 50px;
     font-size: 28px;
     text-align: left;
+    margin-left: 55px;
+
 }
 
-.missiontext h2 {
+.misiontext h2 {
     color: #036C00; 
     font-size: 60px; 
     margin-bottom: 20px; 
+    text-align: left;
+}
+
+.misiontext p {
+    width: 727px;
+    font-weight: 500;
 }
 
 .misionimg {
@@ -247,6 +255,21 @@ footer {
     width: 50%;
     padding: 50px;
     font-size: 28px;
+    text-align: left;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.visiontext h2 {
+    color: #036C00; 
+    font-size: 60px; 
+    margin-bottom: 20px; 
+    text-align: left;
+}
+
+.visiontext p {
+    width: 727px;
+    font-weight: 500;
 }
 
 .visionimg {
