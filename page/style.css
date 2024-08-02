@@ -300,6 +300,11 @@ footer {
     border-radius: 10px;
     text-align: center;
     z-index: 2;
+    width: 1500px;
+}
+
+.parrafoservicios {
+    display: flex;
 }
 
 .servicios-text h2 {
@@ -309,15 +314,19 @@ footer {
     color: #036C00;
 }
 
-.servicios-text li {
-    font-size: 10px; 
-    font-weight: bold; 
+.servicios-text p {
+    font-weight: 300; 
     line-height: 1.6; 
     color: #000000;
     margin: 10px 0; 
     font-size: 30px;
+    text-align: left;
 }
 
+.material-symbols-outlined {
+    color: #13BC10;
+    text-align: center;
+  }
 
 /* Style del .js */
 
