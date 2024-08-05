@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -367,6 +366,51 @@ footer a:link {
         margin-bottom: 10px;
     }
 }
+
+/* Supply chain */
+
+#supply-chain-system {
+    width: 75%; 
+    margin: 0 auto; 
+    margin-bottom: 100px;
+    text-align: left; 
+    padding: 20px; 
+    background-color: #ffffff; 
+}
+
+#supply-chain-system h2 {
+    color: #036C00; 
+    font-size: 50px; 
+    margin-bottom: 50px; 
+    text-align: center;
+}
+
+#supply-chain-system h3 {
+    color: #036C00; 
+    font-size: 40px; 
+    margin-top: 20px; 
+}
+
+#supply-chain-system h4 {
+    color: #036C00; 
+    font-size: 30px; 
+    margin-top: 20px; 
+}
+
+#supply-chain-system h5 {
+    color: #036C00; 
+    font-size: 25px; 
+    margin-top: 15px; 
+    margin-bottom: 10px;
+}
+
+#supply-chain-system p {
+    font-size: 25px; 
+    color: #333333; 
+    margin-bottom: 35px; 
+    font-weight: 500;
+}
+
 
 /* Style del .js */
 
