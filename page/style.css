@@ -60,6 +60,10 @@ p {
     font-family: "Inter", sans-serif;
 }
 
+a {
+    font-family: "Inter", sans-serif;
+}
+
 h1 {
     font-family: "Inter", sans-serif;
 }
@@ -176,31 +180,6 @@ h1 {
     background-color: #004d00; 
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-    height: 347px;
-}
-
-@media (max-width: 768px) {
-    .banner {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    
-    nav ul {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    nav ul li {
-        margin-bottom: 10px;
-    }
-}
-
 /* Mision y vision */
 .misionvision h2 {
     color: #036C00;
@@ -283,7 +262,6 @@ footer {
 .image-container2 {
     position: relative;
     overflow: hidden;
-    margin: 20px 0;
 }
 
 .image-container2 img {
@@ -326,7 +304,69 @@ footer {
 .material-symbols-outlined {
     color: #13BC10;
     text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    height: 320px;
+}
+
+footer img {
+    width: 22px;
+    height: 22px;
+}
+
+.instagram {
+    margin-top: 50px;
+}
+
+.x img {
+    margin-top: 50px;
+}
+
+.copy {
+    margin-top: 50px;
+}
+
+footer a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
   }
+  
+  footer a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #13BC10;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+@media (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+}
 
 /* Style del .js */
 
